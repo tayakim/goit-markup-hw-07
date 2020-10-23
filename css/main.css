@@ -106,7 +106,7 @@ body {
 
 .buttons__link {
   color: #212121;
-  background-color: var(--background-portfolio);
+  background-color: #F5F4FA;
   font-family: inherit;
   padding: 6px 22px;
   font-family: inherit;
@@ -394,7 +394,7 @@ body {
 }
 
 .site-nav__logo {
-  color: var(--font-black);
+  color: #212121;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -428,7 +428,7 @@ body {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--font-black);
+  color: #212121;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -879,7 +879,7 @@ body {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: var(--background-footer);
+  background-color: #2F303A;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
