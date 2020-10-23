@@ -62,16 +62,16 @@
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 50%;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    &__social-link svg {
-        width: 20px;
-        height: 20px;
+        & svg {
+            width: 20px;
+            height: 20px;
+        }
+        &:hover {
+            background-color: var(--blue-color);
+        }
     }
     &__item {
         display: inline-block;
         margin-right: 10px;
-    }
-    &__social-link:hover {
-        background-color: var(--blue-color);
     }
 }

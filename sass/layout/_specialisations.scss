@@ -2,15 +2,20 @@
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--font-white);
+    &__title {
+        margin-top: 0;
+        margin-bottom: 50px;
+        text-align: center;
+    }
     &__list {
         display: flex;
     }
     &__img {
         position: relative;
-    }
-    &__img:not(:last-child) {
-        width: calc((100% - 60px) / 3);
-        margin-right: 30px;
+        &:not(:last-child) {
+            width: calc((100% - 60px) / 3);
+            margin-right: 30px;
+        }
     }
     &__overlay::before {
         position: absolute;

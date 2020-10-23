@@ -43,11 +43,11 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         border: transparent;
-    }
-    &__button svg {
-        width: 24px;
-        height: 24px;
-        margin-left: 10px;
+        & svg {
+            width: 24px;
+            height: 24px;
+            margin-left: 10px;
+        }
     }
     &__text {
         font-weight: 700;

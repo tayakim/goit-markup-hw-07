@@ -1,23 +1,27 @@
 .features {
+    &__title {
+        margin-top: 0;
+        text-align: center;
+    }
     &__container {
         display: flex;
     }
     &__card {
         width: calc((100% - 90px) / 4);
-    }
-    &__card:not(:last-child) {
-        margin-right: 30px;
-    }
-    &__card::before {
-        display: block;
-        content: "";
-        height: 120px;
-        background: #F5F4FA;
-        background-size: auto;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 4px;
-        margin-bottom: 30px;
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+        &::before {
+            display: block;
+            content: "";
+            height: 120px;
+            background: #F5F4FA;
+            background-size: auto;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 4px;
+            margin-bottom: 30px;
+        }
     }
     &__subtitle {
         margin-bottom: 10px;

@@ -2,14 +2,18 @@
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--background-team);
+    &__title {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
     &__list {
         display: flex;
     }
     &__card {
         width: calc((100% - 90px) / 4);
-    }
-    &__card:not(:last-child) {
-        margin-right: 30px;
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
     }
     &__img {
         display: block;
