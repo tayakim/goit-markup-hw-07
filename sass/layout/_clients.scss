@@ -25,10 +25,10 @@
         margin-right: 30px;
     }
     &:hover {
-        border-color: var(--blue-color);
+        border-color: $blue-color;
     }
     &:hover svg {
-        fill: var(--blue-color);
+        fill: $blue-color;
     }
 }
 

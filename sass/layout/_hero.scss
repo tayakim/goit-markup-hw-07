@@ -15,8 +15,8 @@
         align-items: center;
         text-align: center;
         border-radius: 4px;
-        color: var(--font-white);
-        background-color: var(--blue-color);
+        color: $font-white;
+        background-color: $blue-color;
         font-family: inherit;
         font-size: 16px;
         line-height: 1.8;
@@ -28,7 +28,7 @@
     &__title {
         margin-top: 200px;
         margin-bottom: 30px;
-        color: var(--font-white);
+        color: $font-white;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;

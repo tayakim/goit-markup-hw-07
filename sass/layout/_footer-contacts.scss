@@ -1,5 +1,5 @@
 .contacts-footer {
-    background-color: var(--background-footer);
+    background-color: $background-footer;
     padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
@@ -25,11 +25,11 @@
         margin-top: 0;
     }
     &__address {
-        color: var(--font-white);
+        color: $font-white;
     }
     &__email,
     &__phone {
-        color: var(--font-grey);
+        color: $font-grey;
         text-decoration: none;
     }
 }
@@ -51,7 +51,7 @@
         line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: var(--font-white);
+        color: $font-white;
     }
     &__social-link {
         display: flex;
@@ -67,7 +67,7 @@
             height: 20px;
         }
         &:hover {
-            background-color: var(--blue-color);
+            background-color: $blue-color;
         }
     }
     &__item {

@@ -68,7 +68,7 @@
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
-    color: var(--font-white);
+    color: $font-white;
     margin-top: 0;
     margin-bottom: 0;
     transform: translateY(100%);
@@ -87,7 +87,7 @@
     &__subtitle {
         margin-top: 0;
         margin-bottom: 4px;
-        color: var(--font-black);
+        color: $font-black;
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -96,7 +96,7 @@
     &__type {
         margin-top: 0;
         margin-bottom: 0px;
-        color: var(--font-grey);
+        color: $font-grey;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.8;

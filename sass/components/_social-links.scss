@@ -20,11 +20,11 @@
             transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
         &:hover {
-            background-color: var(--blue-color);
-            fill: var(--font-white);
+            background-color: $blue-color;
+            fill: $font-white;
         }
         &:hover svg {
-            fill: var(--font-white);
+            fill: $font-white;
         }
     }
 }
