@@ -1,0 +1,37 @@
+.hero {
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header.jpg");
+    background-repeat: no-repeat;
+    max-width: 1600;
+    display: flex;
+    margin-bottom: 94px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    &__button {
+        display: flex;
+        display: inline-block;
+        padding: 10px 32px;
+        margin-bottom: 200px;
+        align-items: center;
+        text-align: center;
+        border-radius: 4px;
+        color: var(--font-white);
+        background-color: var(--blue-color);
+        font-family: inherit;
+        font-size: 16px;
+        line-height: 1.8;
+        border: 1px solid transparent;
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+    }
+    &__title {
+        margin-top: 200px;
+        margin-bottom: 30px;
+        color: var(--font-white);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-transform: uppercase;
+    }
+}
